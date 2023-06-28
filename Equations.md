@@ -13,7 +13,9 @@ where $F$ indicates the input current to the given population and parameters $a$
 The input current $F$ is given by the linear sum of excitatory and inhibitory currents as follows: 
 
 $F_{l} = c_{ll}G_l-c_{il}G_i-c_{el}G_e+\alpha K_p,$ 
+
 $F_{i} = c_{li}G_l-c_{ii}G_i- c_{ei}G_e+(1-\alpha)K_p,$
+
 $F_{e} = c_{le}G_l-c_{ie}G_i-c_{ee}G_e,$ 
 
 where the parameters $c_{\text{subscript}}$ are the coupling constants, representing the strength of the communication from one population to another. The parameter $K_p$ depicts the overall level of kisspeptin input, which is then distributed to glutamate and GABA interneurons in accordance with the ratio constant $\alpha \in [0,1]$ representing the proportion of kisspeptin input to glutamate.
