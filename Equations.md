@@ -2,7 +2,7 @@
 
 ## MePD system
 
-to model the interplay between GABA and glutamate within the MePD we employ the Wilson-Cowan framework (Wilson et al., 1972). We extended it by including a second inhibitory variable with no external input, which constitutes the activity in the population of GABA efferents.
+To model the interplay between GABA and glutamate within the MePD we employ the Wilson-Cowan framework (Wilson et al., 1972). We extended it by including a second inhibitory variable with no external input, which constitutes the activity in the population of GABA efferents.
 
 A key component of the Wilson-Cowan framework is a sigmoid stimulus-response function $\phi(a, F, \theta)$, which controls the mean level of activity generated in a populations at time $t$:
 
